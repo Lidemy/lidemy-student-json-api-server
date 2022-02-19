@@ -144,7 +144,7 @@ URL: `/posts`
 
 https://student-json-api.lidemy.me/posts?userId=1
 
-還可以利用 `_expand` 一併把每篇文章的 user 抓出來：https://student-json-api.lidemy.me/posts?userId=1&_expand=user
+還可以利用 `_expand` 一併把文章的 user 抓出來：https://student-json-api.lidemy.me/posts?userId=1&_expand=user
 
 相同的，也可以反過來做，抓取某個 user，然後把他底下的文章一起抓出來：https://student-json-api.lidemy.me/users/1?_embed=posts
 
